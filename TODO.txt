@@ -1,0 +1,20 @@
+Change to contact.php on nav menu for every page DONE
+
+Sort out the logo DONE
+
+Remove learn to play from the footer DONE
+
+Add tracking script to every page in the head DONE
+
+Fixed footer links
+
+Tested in all browsers - Firefox is the only bastard child. Module on about page is slightly mis-sized
+
+Tested all links
+
+
+
+
+XML SITE MAP
+
+Minified files
