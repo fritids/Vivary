@@ -11,7 +11,7 @@
   <meta name="description" content="Vivary Golf Course, a beautifully maintained 18 hole parkland golf course ideally situated within a short 5 minute walk of the town centre.">
 	<title>Vivary Park Golf Club</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="css/global-original.css">
+	<link rel="stylesheet" href="css/global.css">
 	<!--[if lte IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -39,7 +39,6 @@
 			<img src="images/slider/slide4.jpg" alt="Vivary Photography Slide Four">	
 		</div>
 		<div class="slider-controls" id="controls">
-			
 		</div>
 	</div>
 	<div class="main-content group">
@@ -48,11 +47,11 @@
 				a beautifully maintained 18 hole parkland golf course ideally situated within a short 5 minute walk of the town centre. A 'Hidden Gem' within Vivary Park, suitable for all ages from beginner to experienced golfer. Designed by W H Fowler in 1928 a flat easy-to-walk course with a perfect blend of ponds, streams, bunkers and well established trees. You will not be disappointed.
 				</p>
 		</section>
-		<section class="module featured-news">
+		<!-- <section class="module featured-news">
 			<h2>Featured News</h2>
 			<p>
 			</p>
-		</section>
+		</section> -->
     <section class="twitter module">
 			<h2>Recent Updates</h2>
 			<a class="twitter-timeline" href="https://twitter.com/VivaryGolfClub" data-widget-id="346996915877060608" width="520px" height="300px" data-chrome="">Tweets by @VivaryGolfClub</a>
@@ -139,9 +138,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/slider.plugin.min.js"></script>
 <script type="text/javascript">
-	
 	(function(){
-
 	  $(window).on('scroll', function () {
 	    var yPos = $(window).scrollTop();
 	    if(yPos < 400) {
@@ -151,17 +148,13 @@
 	      $(".site-header").addClass("fixed-site-header");
 	    }
 	  });
-
 	  $("#slider-content").slider({
       "cycleTime": 8000,
       "fadeSpeed": 1000,
       "buildControls": true
     });
-
 	  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
 	})();
-
 </script>
 </body>
 </html>
