@@ -81,11 +81,11 @@ Template Name: Front Page
 				a beautifully maintained 18 hole parkland golf course ideally situated within a short 5 minute walk of the town centre. A 'Hidden Gem' within Vivary Park, suitable for all ages from beginner to experienced golfer. Designed by W H Fowler in 1928 a flat easy-to-walk course with a perfect blend of ponds, streams, bunkers and well established trees. You will not be disappointed.
 				</p>
 		</section>
-		<section class="module featured-news">
+		<!--<section class="module featured-news">
 			<h2>Featured News</h2>
 			<p>
 			</p>
-		</section>
+		</section>-->
     <section class="twitter module">
 			<h2>Recent Updates</h2>
 			<a class="twitter-timeline" href="https://twitter.com/VivaryGolfClub" data-widget-id="346996915877060608" width="520px" height="300px" data-chrome="">Tweets by @VivaryGolfClub</a>
