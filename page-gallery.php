@@ -4,58 +4,9 @@ Template Name: Gallery
 */
 ?>
 
-<?php get_header(); $i = 0; ?>
+<?php get_header(); ?>
 
-<?php $thumbnails = get_field('gallery_items'); ?>
-
-<?php var_dump($thumbnails['3']); ?>
-
-<?php if(get_field('gallery_thumbnails')) : ?>
-
-	<div class="gallery-grid">
-
-		<?php while(has_sub_field('gallery_thumbnails')) : ?>
-
-				<img src="<?php the_sub_field('gallery_thumbnail') ?>" class="gallery-item" data-index="<?php echo $i ?>" alt="" />
-
-			<?php $i++ ?>
-
-		<? endwhile; ?>
-
-	</div>
-
-<? else : ?>
-
-		<div class="gallery-grid">
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/1.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/2.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/3.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/4.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/5.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/6.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/7.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/8.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/9.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/10.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/11.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/12.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/13.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/14.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/15.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/16.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/17.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/18.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/19.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/20.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/21.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/22.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/23.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/24.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/25.JPG" class="gallery-item" alt="" />
-			<img src="<?php bloginfo('template_url'); ?>/images/gallery/thumbnails/27.JPG" class="gallery-item" alt="" />
-    </div>
-
-<? endif; ?>
+<?php the_content(); ?>
 
     <div class="large-gallery-image">
       <a class="close-button close-feature">&times;</a>
@@ -107,12 +58,10 @@ Template Name: Gallery
 <script type="text/javascript">
   (function () {
 
-  	var arrayFromPHP = <?php echo json_encode($thumbnails); ?>;
-
     var $window = $(window),
     $overlay = $('.overlay'),
     $popup = $('.large-gallery-image'),
-    $thumbs = $('.gallery-item'),
+    $thumbs = $('.attachment-thumbnail'),
     $closeBtn = $('.close-feature');
 
     function sizes() {
@@ -129,14 +78,11 @@ Template Name: Gallery
       }
     }
 
-    $thumbs.on('click', function () {
+    $thumbs.on('click', function (e) {
+		e.preventDefault();
       $overlay.fadeIn();
 
       var popupSizes = sizes();
-      var itemPos = $(this).attr('data-index');
-      var itemIndex = arrayFromPHP[itemPos];
-
-      alert(arrayFromPHP);
 
       $popup.animate({
         height: popupSizes.popHeight,
@@ -146,7 +92,7 @@ Template Name: Gallery
       }, { queue: false })
         .fadeIn()
         .children('img')
-        .attr('src', $(this).attr('src').replace('',''));
+        .attr('src', $(this).attr('src').replace('-280x250',''));
 
     });
 
