@@ -72,7 +72,7 @@ Template Name: Front Page
 			<img src="<?php bloginfo('template_url'); ?>/images/slider/slide4.jpg" alt="Vivary Photography Slide Four">	
 		</div>
 		<div class="slider-controls" id="controls">
-			
+
 		</div>
 	</div>
 	<div class="main-content group">
@@ -81,27 +81,34 @@ Template Name: Front Page
 				a beautifully maintained 18 hole parkland golf course ideally situated within a short 5 minute walk of the town centre. A 'Hidden Gem' within Vivary Park, suitable for all ages from beginner to experienced golfer. Designed by W H Fowler in 1928 a flat easy-to-walk course with a perfect blend of ponds, streams, bunkers and well established trees. You will not be disappointed.
 				</p>
 		</section>
-		<!--<section class="module featured-news">
-			<h2>Featured News</h2>
-			<p>
-			</p>
-		</section>-->
-    <section class="twitter module">
-			<h2>Recent Updates</h2>
-			<a class="twitter-timeline" href="https://twitter.com/VivaryGolfClub" data-widget-id="346996915877060608" width="520px" height="300px" data-chrome="">Tweets by @VivaryGolfClub</a>
-    </section>
 		<section class="action-links">
-			<a href="/member" class="module">
+			<a href="/news" title="Featured News" class="module">
+				<span data-icon="&#xe000;"></span>
+				<h3>Featured News</h3>
+				<p>Check out what's happening at Vivary</p>
+			</a>
+			<a href="/events" title="Forthcoming Events" class="module">
+				<span data-icon="&#xe003;"></span>
+				<h3>Forthcoming Events</h3>
+				<p>Fancy a match?</p>
+			</a>
+			<a href="/category/results" title="Match and Competition Results" class="module">
+				<span data-icon="&#xe008;"></span>
+				<h3>Match and Competition Results</h3>
+				<p>Take a look at the scoreboard</p>
+			</a>
+
+			<a href="/member" title="Booking Options" class="module">
 				<span data-icon="&#xe000;"></span>
 				<h3>Make a Booking</h3>
 				<p>Please call the club on<br>01823 333875</p>
 			</a>
-			<a href="/gallery" class="module">
+			<a href="/gallery" title="Photo Gallery" class="module">
 				<span data-icon="&#xe003;"></span>
 				<h3>Our Gallery</h3>
 				<p>Check out the course gallery to see what we have to offer</p>
 			</a>
-			<a href="/member" class="module">
+			<a href="/member" title="Membership Options" class="module">
 				<span data-icon="&#xe008;"></span>
 				<h3>Membership Options</h3>
 				<p>Don't miss out on these great deals, everyone is welcome</p>
@@ -136,23 +143,7 @@ Template Name: Front Page
 			</ul>
 		</section>
 		<section class="module contact-info">
-			<h4>Opening Hours &amp; Contact Info</h4>
-			<div class="address-and-contact">
-				<p>
-					Vivary Golf Club
-					Fons George Rd<br>
-					Taunton
-					Somerset<br>
-					TA1 3JT<br><br>
-					Tel:<br>
-					01823 333875<br><br>
-					Open Mon - Sun
-					07:30 - Dusk
-				</p>
-			</div>
-			<a href="http://maps.google.com/maps?q=Vivary+Park+Golf+Course,+Taunton,+United+Kingdom&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=34.671324,79.013672&amp;oq=vivary+golf+c&amp;hq=Vivary+Park+Golf+Course,+Taunton,+United+Kingdom&amp;t=m&amp;z=14" title="Find Us On Google Maps" target="_blank">
-        <img src="<?php bloginfo('template_url'); ?>/images/map.jpg" alt="Find Us On Google Maps!">
-      </a>
+			<a class="twitter-timeline" href="https://twitter.com/VivaryGolfClub" data-widget-id="346996915877060608" width="520px" height="300px"  data-chrome="">Tweets by @VivaryGolfClub</a>
 		</section>
 		<section class="legal-links">
 			<div class="legal-navigation">
