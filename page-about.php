@@ -56,13 +56,18 @@ Template Name: About
 					<h5>Margaret Holmes</h5>
 					<small>Ladies Section</small>
 				</li>
+			</ul>
+			<ul>
 				<li>
 					<h5>Mark Newman</h5>
 					<small>Head Greenkeeper</small>
 				</li>
 				<li>
-					<h5>Heidi Derbe</h5>
-					<small>Catering Manager</small>
+					<h5>John Fisher</h5>
+					<small>Competitions &amp; Handicaps</small>
+				</li>
+				<li>
+					<h5>Eddie Cullen</h5>
 				</li>
 				<li>
 					<h5>Charles Hall</h5>
@@ -70,6 +75,8 @@ Template Name: About
 				<li>
 					<h5>Ray Fallon</h5>
 				</li>
+			</ul>
+			<ul>
 				<li>
 					<h5>Dennis Galpin</h5>
 				</li>

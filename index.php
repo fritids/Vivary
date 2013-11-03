@@ -53,7 +53,6 @@ Template Name: Front Page
     ?>
 
 </head>
-<body <?php body_class(); ?>>
 <div class="page-wrap index">
 	<header class="site-header">
 		<a href="/"><img src="<?php bloginfo('template_url'); ?>/images/main-site-logo.png" alt="Vivary Park Logo" class="main-branding-logo"></a>

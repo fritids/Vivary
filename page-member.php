@@ -37,7 +37,7 @@ Template Name: Member
 			Don't forget your <a href="/documents/scorecard.pdf" target="_blank">Score Card</a></p>
 		</div>
 		<div class="module more-info">
-			<p>We now have three buggies for regular hire which can be booked in advance by contacting the Pro Shop on telephone: <span>01823 333875</span><br>
+			<p>We now have three buggies for regular hire which can be booked in advance by contacting the golf course reception on telephone: <span>01823 333875</span><br>
 			For information on the course, its condition and booking times please <a href="http://www.toneleisure.co.uk/golf/" target="_blank">Click Here</a></p>
 		</div>
 	</div>
