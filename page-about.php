@@ -12,7 +12,7 @@ Template Name: About
 			</p>
 		</section>
 		<section class="module contact-info">
-			<h4 style="color: #3248A6;">Opening Hours &amp; Contact Info</h4>
+			<h4>Opening Hours &amp; Contact Info</h4>
 			<div class="address-and-contact" style="color: #4A4A4A;">
 				Vivary Golf Club
 				Fons George Rd

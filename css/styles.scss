@@ -16,7 +16,7 @@ body {
 	color: #333333;
 }
 h2, h3 {
-    color: #3248A6;
+    color: #9D1539;
     border-bottom: 1px solid #CCC;
     padding-bottom: 3px;
     font-weight: normal;
@@ -240,7 +240,7 @@ h2, h3 {
 	line-height: 30px;
 }
 .intro-text span, .learn-link a h3, .member-options a h3, .management h2, .twitter h2, .page-loop h1, .category h1, .single h1 {
-    color: #3248A6;
+    color: #9D1539;
     font-size: 24px;
 }
 .page-loop .main-content > .module, .single .main-content > .module, .page-template .main-content > article.module {
@@ -422,7 +422,7 @@ h2, h3 {
 }
 .member-options h3 {
     font-size: 24px;
-    color: #3248A6;
+    color: #9D1539;
 }
 .more-info {
     font-size: 19px;
@@ -431,10 +431,10 @@ h2, h3 {
     padding-top: 20px;
 }
 .more-info span, .more-info a, .page-loop a, .page-loop span {
-    color: #3248A6;
+    color: #9D1539;
 }
 .more-info a:hover, .page-loop a:hover, .category .module a:hover {
-    color: blue;
+    color: #C72852;
 }
 /* ---------- LEARN 2 PLAY ------------ */
 .learn-link {
@@ -457,6 +457,9 @@ h2, h3 {
 .about-content section {
     float: left;
 }
+.about-content .contact-info h4{
+    color: #9D1539;
+}
 .about-links .module {
     width: 340px;
     height: 280px;
@@ -467,7 +470,7 @@ h2, h3 {
 }
 .about-links a, .category .module a {
     text-decoration: none;
-    color: #3248A6;
+    color: #9D1539;
     text-align: center;
 }
 .about-links .module h3 {

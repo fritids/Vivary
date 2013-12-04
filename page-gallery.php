@@ -6,6 +6,8 @@ Template Name: Gallery
 
 <?php get_header(); ?>
 
+<p>blahtest</p>
+
 <?php the_content(); ?>
 
     <div class="large-gallery-image">

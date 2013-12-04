@@ -3,6 +3,8 @@
                 <h4>Our Partners:</h4>
                 <ul>
                     <li>
+                        <a href="http://www.proactivegolf.net16.net/" target="_blank">ProActive Golf</a></li>
+                    <li>
                         <a href="http://www.toneleisure.co.uk" target="_blank">Tone Leisure</a></li>
                     <li>
                         <a href="http://www.somerset.ac.uk" target="_blank">Somerset College</a></li>

@@ -53,6 +53,7 @@ Template Name: Front Page
     ?>
 
 </head>
+<body>
 <div class="page-wrap index">
 	<header class="site-header">
 		<a href="/"><img src="<?php bloginfo('template_url'); ?>/images/main-site-logo.png" alt="Vivary Park Logo" class="main-branding-logo"></a>
@@ -82,33 +83,33 @@ Template Name: Front Page
 		</section>
 		<section class="action-links">
 			<a href="/news" title="Featured News" class="module">
-				<span data-icon="&#xe000;"></span>
+				<span data-icon="&#xe603;"></span>
 				<h3>Featured News</h3>
 				<p>Check out what's happening at Vivary</p>
 			</a>
 			<a href="/events" title="Forthcoming Events" class="module">
-				<span data-icon="&#xe003;"></span>
+				<span data-icon="&#xe604;"></span>
 				<h3>Forthcoming Events</h3>
 				<p>Fancy a match?</p>
 			</a>
 			<a href="/category/results" title="Match and Competition Results" class="module">
-				<span data-icon="&#xe008;"></span>
-				<h3>Match and Competition Results</h3>
+				<span data-icon="&#xe605;"></span>
+				<h3>The Results</h3>
 				<p>Take a look at the scoreboard</p>
 			</a>
 
 			<a href="/member" title="Booking Options" class="module">
-				<span data-icon="&#xe000;"></span>
+				<span data-icon="&#xe600;"></span>
 				<h3>Make a Booking</h3>
 				<p>Please call the club on<br>01823 333875</p>
 			</a>
 			<a href="/gallery" title="Photo Gallery" class="module">
-				<span data-icon="&#xe003;"></span>
+				<span data-icon="&#xe601;"></span>
 				<h3>Our Gallery</h3>
 				<p>Check out the course gallery to see what we have to offer</p>
 			</a>
 			<a href="/member" title="Membership Options" class="module">
-				<span data-icon="&#xe008;"></span>
+				<span data-icon="&#xe602;"></span>
 				<h3>Membership Options</h3>
 				<p>Don't miss out on these great deals, everyone is welcome</p>
 			</a>
@@ -116,15 +117,15 @@ Template Name: Front Page
 		<section class="module user-testimonials">
 			<h3>This is what people are saying about Vivary Golf Club:</h3>
 			<ul>
-				<li data-icon="&#xe001;">
+				<li data-icon="&#xe606;">
 					<p>Visited family in Taunton and strolled up to Vivary for a look see. I booked in and played the following day, hired clubs, trolley and off I went. Absolutely brilliant, everybody so friendly, the course challenging but not intimidating and a lot of fun. Wish I lived closer and look forward to my next visit.</p>
 					<span>- Peter Arnold (Leicester) June 2012.</span>
 				</li>
-				<li data-icon="&#xe001;">
+				<li data-icon="&#xe606;">
 					<p>On the way to Cornwall with my husband called in to play at Vivary. So amazed at the fantastic condition of this municipal course. Friendly atmosphere in the clubhouse, the food excellent and very reasonably priced. Definitely worth a return visit.</p>
 					<span>- Hilary and David Bessinger (Bridgend) September 2012</span>
 				</li>
-				<li data-icon="&#xe001;">
+				<li data-icon="&#xe606;">
 					<p>Wanted somewhere where I could take my 11 year old son for a game and was recommended to try Vivary Park. An absolute delight and we both thoroughly enjoyed the round. So much so that we have both joined the club and taking lessons from Richard the club professional.</p>
 					<span>- Wayne Thomas (North Petherton) January 2013</span>
 				</li>
@@ -135,6 +136,8 @@ Template Name: Front Page
 		<section class="affiliate">
 			<h4>Our Partners:</h4>
 			<ul>
+				<li>
+					<a href="http://www.proactivegolf.net16.net/" target="_blank">ProActive Golf</a></li>
 				<li>
 					<a href="http://www.toneleisure.co.uk" target="_blank">Tone Leisure</a></li>
 				<li>
